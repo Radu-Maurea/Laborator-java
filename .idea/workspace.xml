@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f73b1686-0c57-4ca4-83ed-e881cf9048f9" name="Changes" comment="Prima lucrare de laborator">
-      <change afterPath="$PROJECT_DIR$/src/pb2/Problema2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pb2/in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pb2/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pb3/Problema3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
