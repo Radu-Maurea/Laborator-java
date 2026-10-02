@@ -9,11 +9,6 @@ public class Problema4 {
         Random random = new Random();
         int a = random.nextInt(31);
         int b = random.nextInt(31);
-        while(a>30 || b>30 || a<0 || b<0)
-        {
-            a= random.nextInt();
-            b=random.nextInt();
-        }
 
         System.out.println(a+" "+b);
         int x = a;
