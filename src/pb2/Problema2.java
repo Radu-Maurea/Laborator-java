@@ -1,8 +1,6 @@
 package pb2;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.InputStream;
+import java.io.*;
 
 public class Problema2 {
     public static void main(String[] args) {
@@ -28,8 +26,6 @@ public class Problema2 {
                 for (String element : elemente) {
                     int numar = Integer.parseInt(element);
 
-                    System.out.println(numar);
-
                     if (numar < minim)
                         minim = numar;
 
@@ -45,10 +41,16 @@ public class Problema2 {
 
             float medie = (float) suma / numarElemente;
 
-            System.out.println("minim = " + minim);
-            System.out.println("maxim = " + maxim);
-            System.out.println("suma = " + suma);
-            System.out.println("media = " + medie);
+            // Scriem rezultatele în out.txt
+            PrintWriter flux_out = new PrintWriter(new FileWriter("src/pb2/out.txt"));
+
+
+            flux_out.println("minim = " + minim);
+            flux_out.println("maxim = " + maxim);
+            flux_out.println("suma = " + suma);
+            flux_out.println("media = " + medie);
+
+            flux_out.close();
 
         } catch (Exception e) {
             System.out.println("nu exista");

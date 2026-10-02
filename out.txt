@@ -1,0 +1,4 @@
+minim = 0
+maxim = 123
+suma = 150
+media = 18.75

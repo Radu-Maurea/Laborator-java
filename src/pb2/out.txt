@@ -1,0 +1,4 @@
+minim = 0
+maxim = 8
+suma = 27
+media = 3.857143
